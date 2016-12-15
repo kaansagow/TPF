@@ -174,7 +174,14 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Admin\Gestao.aspx" />
     <Content Include="Admin\gestaoReservas.aspx" />
+    <Content Include="App_Data\carne.xml" />
     <Content Include="App_Data\menus.xml" />
+    <Content Include="App_Data\menus.xsl" />
+    <Content Include="App_Data\entrada.xml" />
+    <Content Include="App_Data\peixe.xml" />
+    <Content Include="App_Data\sobremesa.xml" />
+    <Content Include="App_Data\sopas.xml" />
+    <Content Include="App_Data\vege.xml" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -203,7 +210,25 @@
     <Content Include="Private\reservas.aspx" />
     <Content Include="Private\Web.config" />
     <Content Include="Admin\Web.config" />
+    <None Include="App_Data\carne.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Data\entrada.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="App_Data\menus.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Data\peixe.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Data\sobremesa.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Data\sopas.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Data\vege.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
