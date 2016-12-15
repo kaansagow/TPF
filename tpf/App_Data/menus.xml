@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+  <menu>
+    <entradas>
+      <entrada id="1">
+        <nome>Carpaccio de atum e legumes em pickles</nome>
+        <price>16€</price>
+      </entrada>
+      <entrada id="2">
+        <nome>Salada de folhas e flores, presunto Ibérico e ovo de codorniz</nome>
+        <price>14€</price>
+      </entrada>
+    </entradas>
+    <sopas>
+      <sopa id="1">
+        <nome>Sopa de peixes e marisco</nome>
+        <price>13,5€</price>
+      </sopa>
+    </sopas>
+    <pratos>
+      <carnes>
+        <carne id="1">
+          <nome>Novilho corado com cogumelos Portobello</nome>
+          <price>26€</price>
+        </carne>
+        <carne id="2">
+          <nome>Leitão em duas texturas com migas de feijão-frade</nome>
+          <price>23€</price>
+        </carne>
+      </carnes>
+      <peixes>
+        <peixe id="1">
+          <nome>Robalo com xarém de tomate e coentros</nome>
+          <price>29€</price>
+        </peixe>
+        <peixe id="2">
+          <nome>Garopa corada, puré de batata vitelotte</nome>
+          <price>23€</price>
+        </peixe>
+      </peixes>
+      <veges>
+        <vege id="1">
+          <nome>Berinjela Jerusalém marinada</nome>
+          <price>20€</price>
+        </vege>
+        <vege id="2">
+          <nome>Risoto de funghi seco</nome>
+          <price>22€</price>
+        </vege>
+      </veges>
+    </pratos>
+    <sobremesas>
+      <sobremesa id="1">
+        <nome>Pão-de-ló com suave parfait de coco</nome>
+        <price>8€</price>
+      </sobremesa>
+      <sobremesa id="2">
+        <nome>Soufflé de citrinos</nome>
+        <price>7€</price>
+      </sobremesa>
+    </sobremesas>
+  </menu>
+</menus>
