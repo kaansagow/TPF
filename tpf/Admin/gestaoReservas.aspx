@@ -5,10 +5,10 @@
 
             <asp:TemplateField HeaderText="id" SortExpression="id">
                 <EditItemTemplate>
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# Eval("id") %>' Text='<%# Eval("id") %>'></asp:HyperLink>
+                    <asp:TextBox ID="TextBox1" runat="server" Text='<%# Eval("id") %>'></asp:TextBox>
                 </EditItemTemplate>
                 <ItemTemplate>
-                    <asp:Label ID="Label1" runat="server" Text='<%# Bind("id") %>'></asp:Label>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl='<%# Eval("id") %>' Text='<%# Eval("id") %>'></asp:HyperLink>
                 </ItemTemplate>
             </asp:TemplateField>
 
@@ -58,12 +58,12 @@
                     &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Cancel"  class="fa fa-times" aria-hidden="true"></asp:LinkButton>
                 </EditItemTemplate>
                 <ItemTemplate>
-                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" class="fa fa-pencil-square-o" aria-hidden="true"></asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="False" CommandName="Edit" class="fa fa-pencil-square-o" aria-hidden="true"></asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
             <asp:TemplateField ShowHeader="False">
                 <ItemTemplate>
-                    <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete"></asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton4" runat="server" CausesValidation="False" CommandName="Delete" class="fa fa-trash" aria-hidden="true"></asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
         </Columns>
