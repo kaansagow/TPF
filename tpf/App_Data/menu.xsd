@@ -6,6 +6,7 @@
         <xs:element maxOccurs="unbounded" name="item">
           <xs:complexType>
             <xs:sequence>
+              <xs:element name="id" type="xs:unsignedByte" />
               <xs:element name="menu" type="xs:string" />
               <xs:element name="nome" type="xs:string" />
               <xs:element name="price" type="xs:string" />

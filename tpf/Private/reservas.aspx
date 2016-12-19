@@ -2,17 +2,17 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <h4>Nome:</h4>
-    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+    <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server"></asp:TextBox>
      <asp:CompareValidator ID="txttaxtValid" runat="server" ControlToValidate="TextBox1" ErrorMessage="Not Valid" ForeColor="Red" Type="String" Operator="DataTypeCheck"/>
      <asp:RequiredFieldValidator ID="txttaxReq" runat="server" ControlToValidate="TextBox1" ErrorMessage="Required Field" ForeColor="Red" />
     <br />
     <h4>Número de telefone:</h4>
-    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    <asp:TextBox ID="TextBox2" CssClass="form-control" runat="server"></asp:TextBox>
      <asp:CompareValidator ID="CompareValidator2" runat="server" ControlToValidate="TextBox2" ErrorMessage="Not Valid" ForeColor="Red" Type="Integer" Operator="DataTypeCheck"/>
      <asp:RequiredFieldValidator ID="txttaxReq2" runat="server" ControlToValidate="TextBox2" ErrorMessage="Required Field" ForeColor="Red" />
     <br />
     <h4>Número de pessoas:</h4>
-    <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+    <asp:TextBox ID="TextBox4" CssClass="form-control" runat="server"></asp:TextBox>
      <asp:CompareValidator ID="CompareValidator3" runat="server" ControlToValidate="TextBox4" ErrorMessage="Not Valid" ForeColor="Red" Type="Integer" Operator="DataTypeCheck"/>
     <asp:RequiredFieldValidator ID="txttaxReq4" runat="server" ControlToValidate="TextBox4" ErrorMessage="Required Field" ForeColor="Red" />
     <br />
@@ -29,7 +29,7 @@
     <br />
     <asp:TextBox ID="date" runat="server" Visible="false"></asp:TextBox>
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Submeter Reserva" OnClick="Button1_Click" />
+    <asp:Button ID="Button1" runat="server" Text="Submeter Reserva" CssClass="btn btn-default" OnClick="Button1_Click" />
     <asp:XmlDataSource ID="XmlDataSource2" runat="server" DataFile="~/App_Data/reservation.xml" EnableCaching="False" TransformFile="~/App_Data/reservation.xsl"></asp:XmlDataSource>
     <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/reservation.xml" EnableCaching="False"></asp:XmlDataSource>
 </asp:Content>

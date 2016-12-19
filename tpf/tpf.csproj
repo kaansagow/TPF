@@ -174,7 +174,8 @@
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="Admin\Gestao.aspx" />
     <Content Include="Admin\gestaoReservas.aspx" />
-    <Content Include="App_Data\lerestauranti.png" />
+    <Content Include="App_Data\dboEmentaSchema.sql" />
+    <Content Include="App_Data\dboReservasSchema.sql" />
     <Content Include="App_Data\menu.xml" />
     <Content Include="App_Data\menu.xsl" />
     <Content Include="App_Data\reservation.xml" />
@@ -203,8 +204,9 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="Image\blank.png" />
-    <Content Include="Image\lerestauranti.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\restaurante.jpg" />
+    <Content Include="img\roof.jpg" />
     <Content Include="menus.aspx" />
     <Content Include="Private\reservas.aspx" />
     <Content Include="Private\Web.config" />

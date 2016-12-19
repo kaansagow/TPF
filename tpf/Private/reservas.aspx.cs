@@ -60,14 +60,8 @@ namespace tpf.Private
 
             XmlDataSource1.Save();
             XmlDataSource2.DataBind();
-
-     
-       
-
-        Response.Redirect("~/");
-
-
-
+            
+            Response.Redirect("~/");
 
         }
 

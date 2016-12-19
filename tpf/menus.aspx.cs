@@ -4,9 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Xml;
-using System.Data;
-using System.Web.UI.HtmlControls;
+
+
 
 namespace tpf
 {
@@ -14,11 +13,20 @@ namespace tpf
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
 
         }
 
-
-       
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(DropDownList1.SelectedValue == null)
+            {
+                GridView1.Visible = false;
+            }
+            else
+            {
+                GridView1.Visible = true;
+                XmlDataSource2.XPath = "/menus/item[@menu='" + DropDownList1.SelectedValue + "']";
+            }
+        }
     }
 }

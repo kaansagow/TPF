@@ -43,9 +43,9 @@ namespace tpf.Admin
             HyperLink hyper = (HyperLink)row.FindControl("HyperLink1");
             XmlDocument xdoc = XmlDataSource2.GetXmlDocument();
 
-            XmlElement a = xdoc.SelectSingleNode("reservas") as XmlElement;
-            XmlElement b = xdoc.SelectSingleNode("reservas/item[@id='" + hyper.Text + "']") as XmlElement;
-            a.RemoveChild(b);
+            XmlElement reservas = xdoc.SelectSingleNode("reservas") as XmlElement;
+            XmlElement reserva = xdoc.SelectSingleNode("reservas/item[@id='" + hyper.Text + "']") as XmlElement;
+            reservas.RemoveChild(reserva);
 
             XmlDataSource2.Save();
             XmlDataSource1.DataBind();

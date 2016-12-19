@@ -5,6 +5,9 @@
       <xsl:for-each select="item">
         <xsl:sort select="id" data-type="number"/>
         <item>
+          <xsl:attribute name="id">
+            <xsl:value-of select="id"/>
+          </xsl:attribute>
           <xsl:attribute name="menu">
             <xsl:value-of select="menu"/>
           </xsl:attribute>
