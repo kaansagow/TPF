@@ -1273,6 +1273,8 @@ h1,
 h2,
 .h2 {
   font-size: 32px;
+    height: 102px;
+    width: 1461px;
 }
 h3,
 .h3 {
@@ -1292,6 +1294,7 @@ h6,
 }
 p {
   margin: 0 0 10.5px;
+    height: 93px;
 }
 .lead {
   margin-bottom: 21px;

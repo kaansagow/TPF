@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<reservas>
+  <item id="1">
+    <id>1</id>
+    <reserva>Ricardo Silva</reserva>
+    <telefone>964540808</telefone>
+    <email>ferreiraricardo@ua.pt</email>
+    <data>29/12/2016</data>
+    <pessoas>2</pessoas>
+  </item>
+  <item id="2">
+    <id>2</id>
+    <reserva>Filipe Loureiro</reserva>
+    <telefone>935968512</telefone>
+    <email>filipe_lou@ua.pt</email>
+    <data>29/12/2016</data>
+    <pessoas>1</pessoas>
+  </item>
+  <item id="3">
+    <id>3</id>
+    <reserva>João Brito</reserva>
+    <telefone>967708990</telefone>
+    <email>jbrito@ua.pt</email>
+    <data>29/02/2024</data>
+    <pessoas>1</pessoas>
+  </item>
+</reservas>
